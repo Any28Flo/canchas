@@ -1,17 +1,40 @@
-/*.cancha {
- cc
- background-color: green;
 
-}*/
 .futbool {
 
      width: 500px;
      height: 300px;
      /*border: 20px solid #555;*/
      background: #0B6121;
+     /*position: relative;*/
 
 }
+.lineaCentral{
+
+  border-left: 2px solid   #FFFFFF  ;
+  margin-left: 250px;
+  width:20px;
+  height:300px;
+  margin-top: -200px;*/
+}
+
+.semiAreaIzquierda {
+
+     margin-top: -200px;
+     width: 50px;
+     height: 100px;
+     border: 2px solid  #FFFFFF;
+     background: #0B6121;
+
+     margin-left:348px;
+     -moz-border-radius: 0 100px 100px 0;
+     -webkit-border-radius: 0 100px 100px 0;
+     border-radius: 0 100px 100px 0;
+
+     transform: rotate(180deg)
+}
+
 .porteriaDerecha {
+    /*position: absolute;*/
      width: 100px;
      height: 150px;
      border: 3px solid #FFFFFF ;
@@ -24,16 +47,14 @@
   margin-left:400px;
   border: 3px solid #FFFFFF ;
   background: #0B6121;
-  margin-top: -225px;
+  margin-top: -130px;
 }
 .semiAreaDerecha {
      width: 50px;
      height: 100px;
      border: 2px solid  #FFFFFF;
      background: #0B6121;
-
      margin-left:104px;
-
      -moz-border-radius: 0 100px 100px 0;
      -webkit-border-radius: 0 100px 100px 0;
      border-radius: 0 100px 100px 0;
@@ -51,12 +72,4 @@
      background: #0B6121;
      border: 2px solid  #FFFFFF;
 
-}
-.lineaCentral{
-
-  border-left: 2px solid   #FFFFFF  ;
-  margin-left: 250px;
-  width:20px;
-  height:300px;
-   margin-top: -201px;*/
 }
