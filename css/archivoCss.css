@@ -8,23 +8,55 @@
      width: 500px;
      height: 300px;
      /*border: 20px solid #555;*/
-     background: green;
+     background: #0B6121;
 
 }
 .porteriaDerecha {
      width: 100px;
      height: 150px;
-     border: 3px solid #555;
-     background: #FFFFFF;
+     border: 3px solid #FFFFFF ;
+     background: #0B6121;
      margin-top: -235px;
+}
+.porteriaIzquierda{
+  width: 100px;
+  height: 150px;
+  margin-left:400px;
+  border: 3px solid #FFFFFF ;
+  background: #0B6121;
+  margin-top: -225px;
 }
 .semiAreaDerecha {
      width: 50px;
      height: 100px;
      border: 2px solid  #FFFFFF;
-     background: #5cb85c;
+     background: #0B6121;
+
+     margin-left:104px;
+
      -moz-border-radius: 0 100px 100px 0;
      -webkit-border-radius: 0 100px 100px 0;
      border-radius: 0 100px 100px 0;
      margin-top: -135px;
+}
+.circuloCentral{
+
+     width: 100px;
+     height: 100px;
+     margin-left:200px;
+     margin-top: -100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #0B6121;
+     border: 2px solid  #FFFFFF;
+
+}
+.lineaCentral{
+
+  border-left: 2px solid   #FFFFFF  ;
+  margin-left: 250px;
+  width:20px;
+  height:300px;
+   margin-top: -201px;*/
 }
