@@ -1,10 +1,13 @@
-var botonFutbool= document.getElementsByClassName('cancha');
+var botonFutbool=document.getElementById('botonFutbool');
 botonFutbool.addEventListener("click",canchaFut);
 
 
 function canchaFut(){
-  botonFutbool.class="basquet";
-  
+var cancha= document.getElementById("soccer");
+cancha.style.display="block";
+var canchaTenis= document.getElementById("tenis");
+canchaTenis.style.display="none";
+
 
 
 
